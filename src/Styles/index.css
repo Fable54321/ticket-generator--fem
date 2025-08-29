@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-neutral-0: #ffffff;
+  --color-neutral-300: #d1d0d5;
+  --color-neutral-500: #8784a5;
+  --color-neutral-700: #4b4869;
+  --color-neutral-900: #0d082d;
+
+  --color-orange-500: #f57463;
+  --color-orange-700: #e1604f;
+
+  --color-gradient-01: linear-gradient(90deg, #f37362 0%, #fff 100%);
+}
+
+* {
+  outline: 2px red solid;
+}
+
+.bg-gradient-01 {
+  background: var(--color-gradient-01);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../assets/images/background-mobile.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
