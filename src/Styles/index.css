@@ -13,10 +13,6 @@
   --color-gradient-01: linear-gradient(90deg, #f37362 0%, #fff 100%);
 }
 
-* {
-  outline: 2px red solid;
-}
-
 .bg-gradient-01 {
   background: var(--color-gradient-01);
 }
@@ -30,7 +26,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 100%;
-  overflow-x: hidden;
 }
 
 #root {

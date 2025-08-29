@@ -6,6 +6,7 @@
   flex-direction: column;
   align-items: center;
   background-color: rgba(25, 25, 25, 0.3);
+  overflow: hidden;
 }
 
 .deco-top {
@@ -22,8 +23,6 @@
   left: 12.75%;
   width: 270%;
   opacity: 0.7;
-  outline: 2px lime solid;
-  top: -20%;
 }
 
 .deco-bottom {
